@@ -13,4 +13,4 @@ Business Inteligence:
 - отвечают на поставленный вопрос
 - дают достаточно информации для принятия решения
 
-[![power bi](</powerbi.PNG>)](</powerbi.PNG>)
+[![power bi](</1 Что такое PowerBI?/readme.md>)](</1 Что такое PowerBI?/readme.md>)
