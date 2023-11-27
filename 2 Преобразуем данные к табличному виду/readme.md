@@ -11,7 +11,7 @@
 
 Требуется создать еще одну таблицу Каленьдар дат
 
-[Power BI calendar]https://powerbi.tips/2017/11/creating-a-dax-calendar/
+[Power_BI_calendar]https://powerbi.tips/2017/11/creating-a-dax-calendar/
 
 Копируем формулу
 ```
