@@ -14,6 +14,7 @@
 [Power BI calendar]https://powerbi.tips/2017/11/creating-a-dax-calendar/
 
 Копируем формулу
+```
 Dates  = 
   GENERATE ( 
     CALENDAR ( DATE ( 2017, 1, 1 ), DATE ( 2017, 12, 31 ) ), 
@@ -26,9 +27,10 @@ Dates  =
     "month", month, 
     "year", year )
   )
-
+```
 В меню выбираем Моделирование и жмем Создать таблицу
 Вставляем указанный код и нажимаем ENTER
+```
 Календарь = 
   GENERATE ( 
     CALENDAR ( MIN ( 'Объем внутридневных кредитов Банка России'[Дата]), TODAY() ), 
@@ -41,7 +43,7 @@ Dates  =
     "month", month, 
     "year", year )
   )
-
+```
 *Если выходит ошибка, то меняем , на ;
 
 Нужно установить связь между таблицами
